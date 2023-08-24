@@ -1,0 +1,21 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "image": "imagen1.jpg",
+        "name": "Libro 1",
+        "editorial": "Editorial A",
+        "gender": "Género 1",
+        "author": "Autor 1"
+      },
+      {
+        "id": 2,
+        "image": "imagen2.jpg",
+        "name": "Libro 2",
+        "editorial": "Editorial B",
+        "gender": "Género 2",
+        "author": "Autor 2"
+      }
+    ]
+  }
+  

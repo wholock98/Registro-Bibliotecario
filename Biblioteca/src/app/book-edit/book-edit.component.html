@@ -1,0 +1,10 @@
+<h2>Editar Libro</h2>
+
+<form #bookForm="ngForm" (ngSubmit)="updateBook(bookForm)">
+  <label for="name">Nombre:</label>
+  <input type="text" id="name" name="name" [(ngModel)]="book?.name" required>
+
+ 
+
+  <button type="submit">Guardar Cambios</button>
+</form>

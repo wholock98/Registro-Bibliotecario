@@ -1,0 +1,10 @@
+<h2>Crear Libro</h2>
+
+<form #bookForm="ngForm" (ngSubmit)="createBook(bookForm)">
+  <label for="name">Nombre:</label>
+  <input type="text" id="name" name="name" ngModel required>
+
+  
+
+  <button type="submit">Guardar</button>
+</form>
